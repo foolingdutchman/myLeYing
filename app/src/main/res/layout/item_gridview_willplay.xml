@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <!-- 影片剧照 -->
+    <ImageView
+        android:id="@+id/imageView_willPlay"
+        android:layout_width="100dp"
+        android:layout_height="140dp" />
+
+    <!-- 影片名 -->
+    <TextView
+        android:id="@+id/textView_movie_name_will"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#d000"
+        android:lines="1"
+        android:ellipsize="end"
+        android:gravity="center" />
+
+    <!-- 想看的人数 -->
+    <LinearLayout
+        android:id="@+id/linear_wantsee"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num_wantsee"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:textSize="10sp"
+            android:textColor="#E12B26"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:textSize="10sp"
+            android:textColor="#ADADAD"
+            android:gravity="center"
+            android:text="人想看"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_headview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linear_cinemaFragmentBottom"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:clickable="true"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/icon_dot_selected"
+            />
+        <ImageView
+            android:clickable="true"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/icon_dot_default"
+            android:layout_marginLeft="12dp"
+            />
+        <ImageView
+            android:clickable="true"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/icon_dot_default"
+            android:layout_marginLeft="12dp"
+            />
+        <ImageView
+            android:clickable="true"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/icon_dot_default"
+            android:layout_marginLeft="12dp"
+            />
+        <ImageView
+            android:clickable="true"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/icon_dot_default"
+            android:layout_marginLeft="12dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

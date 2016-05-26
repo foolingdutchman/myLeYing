@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/yingyuan_xiala_arrow_u"  android:state_checked="true"/>
+    <item android:drawable="@mipmap/yingyuan_xiala_arrow_d" android:state_checked="false"/>
+    <item android:state_focused="true" android:drawable="@mipmap/yingyuan_xiala_arrow_u"/>
+    <item android:state_focused="false" android:drawable="@mipmap/yingyuan_xiala_arrow_d"/>
+    <item android:state_window_focused="true" android:drawable="@mipmap/yingyuan_xiala_arrow_u"/>
+    <item android:state_window_focused="false" android:drawable="@mipmap/yingyuan_xiala_arrow_d"/>
+    <item android:state_checkable="true" android:drawable="@mipmap/yingyuan_xiala_arrow_u"/>
+    <item android:state_checkable="false" android:drawable="@mipmap/yingyuan_xiala_arrow_d"/>
+</selector>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/liushuai/Desktop/LeYing/app/build/intermediates/exploded-aar/SMSSDKGUI-2.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="abf111c203fd0a6efd5a7d9435a7fa52aba3eb0e">
+        <dex dex="/Users/liushuai/Desktop/LeYing/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-SMSSDKGUI-2.0.2_1abae89018eed53d2b6c5c747869572f89363f7d.jar" />
+    </item>
+    <item
+        jar="/Users/liushuai/Desktop/LeYing/app/build/intermediates/exploded-aar/SMSSDK-2.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0ddb0f66ce51afc2a0187b8036584ee553f006c1">
+        <dex dex="/Users/liushuai/Desktop/LeYing/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-SMSSDK-2.0.2_a578d271eab436f16228f4262d439794fbd968d2.jar" />
+    </item>
+
+</items>

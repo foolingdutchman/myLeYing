@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_regist_rnumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/zhuce_icon1"
+        android:hint="手机号/邮箱"
+        android:inputType="phone|textEmailAddress"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/et_regist_rconform"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/zhuce_icon2"
+        android:hint="短信验证码"
+        android:inputType="number"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/et_regist_rpassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/denglu_icon2"
+        android:hint="设置密码（6-20字符）"
+        android:inputType="textPassword"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColorHint="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_regist_readnotify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/colorAccent"
+            android:text="我以阅读并同意" />
+
+        <TextView
+            android:id="@+id/tv_regist_forgottenpwd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="left"
+            android:text="服务协议"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_regist_regist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#22FFFFFF"
+        android:text="注册"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/bt_regist_tologin"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/changci_btn3"
+        android:text="登陆"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:inputType="phone|textEmailAddress"
+        android:id="@+id/et_regist_number"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/denglu_icon1"
+        android:hint="手机号/邮箱"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/et_regist_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/denglu_icon2"
+        android:hint="密码"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColorHint="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/bt_regist_fastlogin"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            android:background="@drawable/changci_btn3"
+            android:text="快速注册"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_regist_forgottenpwd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="忘记密码"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_regist_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#22FFFFFF"
+        android:text="登录"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="第三方登陆"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            android:id="@+id/iv_log_weixin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@drawable/weixin_login"/>
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            android:id="@+id/iv_log_weibo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@drawable/weibo_login"/>
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            android:id="@+id/iv_log_qq"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@drawable/xiangqing_icon_qq"/>
+        <ImageView
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            android:id="@+id/iv_log_zhifu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@drawable/zhi_login"/>
+
+    </LinearLayout>
+
+</LinearLayout>

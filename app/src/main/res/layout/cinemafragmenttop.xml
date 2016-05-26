@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <Button
+            android:id="@+id/button_cinemafragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/ct_arrow"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:text="北京"
+            android:textColor="#CE2B2B"
+            android:background="#FAFAFA"
+            android:textSize="18sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="影院"
+            android:textSize="20sp"
+            android:layout_marginLeft="90dp"
+            />
+
+        <ImageView
+            android:id="@+id/searchClick_cinemaFragmentTop"
+            android:clickable="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/icon_search_cinema_title"
+            android:layout_marginLeft="80dp"
+            />
+        <ImageView
+
+            android:clickable="true"
+            android:id="@+id/mapClick_cinemaFragmentTop"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/yingyuan_icon_map"
+            android:onClick="mapClick"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <RadioGroup
+       android:id="@+id/redioGroup_cinemafragmentbottom"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:background="#FAFAFA"
+       android:orientation="horizontal"
+       >
+        <RadioButton
+            android:id="@+id/button1_cinemaFragmentBottom"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="全部城区"
+            android:textColor="@drawable/textcolor"
+            android:background="@drawable/border1"
+            android:drawableRight="@drawable/radiobutton1"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:button="@null"
+            android:gravity="center"
+            />
+       <RadioButton
+           android:id="@+id/button2_cinemaFragmentBottom"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="40dp"
+           android:text="全部品牌"
+           android:textColor="@drawable/textcolor"
+           android:background="@drawable/border1"
+           android:drawableRight="@drawable/radiobutton1"
+           android:paddingLeft="25dp"
+           android:paddingRight="25dp"
+           android:button="@null"
+           android:layout_marginLeft="1dp"
+           android:gravity="center"
+           />
+       <RadioButton
+           android:id="@+id/button3_cinemaFragmentBottom"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="40dp"
+           android:text="特色筛选"
+           android:textColor="@drawable/textcolor"
+           android:background="@drawable/border1"
+           android:drawableRight="@drawable/radiobutton1"
+           android:paddingLeft="25dp"
+           android:paddingRight="25dp"
+           android:button="@null"
+           android:layout_marginLeft="1dp"
+           android:gravity="center"
+           />
+   </RadioGroup>
+
+    <ListView
+        android:id="@+id/listView_cinemaFragmentBottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></ListView>
+</LinearLayout>

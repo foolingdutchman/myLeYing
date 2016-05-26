@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iv_me_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wdly_icon_1" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/tv_me_setting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:text="全部订单" />
+    <ImageView
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xiangqing_icon_gray_arrow"
+        />
+    </LinearLayout>
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_line_solid"/>
+
+</RelativeLayout>

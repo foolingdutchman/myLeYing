@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <!-- 影片剧照 -->
+    <ImageView
+        android:id="@+id/imageView_hotMovies"
+        android:layout_width="100dp"
+        android:layout_height="140dp" />
+
+    <!-- 影片名 -->
+    <TextView
+        android:id="@+id/textView_movie_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#d000"
+        android:lines="1"
+        android:ellipsize="end"
+        android:gravity="center" />
+
+    <!-- 影片评价 -->
+    <LinearLayout
+        android:id="@+id/linear_score"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/linear_star"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="12dp"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:textSize="10sp"
+            android:textColor="#E12B26"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

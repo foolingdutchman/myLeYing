@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.secondproject.leying.ShangouActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/kuangsugoupiao_dingbu_bg"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/changci_btn2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_cinemaName"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rtyuki"
+            android:textSize="25sp"
+            android:textColor="#fff"/>
+        <TextView
+            android:id="@+id/textView_cinemaAddr"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rtyuki"
+            android:textSize="16sp"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+</RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView_shanGou"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imageView_close"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/kuangsugoupiao_close_icon"/>
+    </LinearLayout>
+</LinearLayout>
